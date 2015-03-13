@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact</title>
+	<!--This is the contact form-->
+	<link rel="stylesheet" href="css/sidewalkstyle.css">
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+	<script src="js/contact.js"></script>
+</head>
+	
+<body>
+
+		<!--<h1 class="contact">Denver Sidewalks</h1>
+		-->
+		<header id= "jssidewalk" class="sidewalk"> <!--comment out here-->
+				<h1>D</h1>
+				<h1>E</h1>			
+				<h1>N</h1>	
+				<h1>V</h1>	
+				<h1>E</h1>	
+				<h1>R</h1>	
+				<h1 id="hide">~</h1>	
+				<h1>S</h1>
+				<h1>I</h1>			
+				<h1>D</h1>	
+				<h1>E</h1>
+				<h1>W</h1>	
+				<h1>A</h1>	
+				<h1>L</h1>			
+				<h1>K</h1>	
+				<h1>S</h1>
+			</header>
+    <nav>
+        <ul class="buttons">
+            <li><a class="blog" href="index.html">Home Page</a></li>
+            <li><a class="contact" href="contact.html">Contact</a></li>
+            <li><a class= "resume" href="types.html">Types</a></li>
+            <li><a class= "gallery" href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+		
+		<figure>
+			<img src = "images/contactpic.jpg" class="contact" alt="Denver sidewalk fountian">
+			<figcaption>Denver sidewalk fountian
+		</figcaption>
+		</figure>
+		
+		<p>The sidewalk is our greatest public domain. It is open to all people at all hours and in all sorts of weather.</p>
+		<p>It is therefore the responsibility of each person to maintain this space for every other person.</p>
+	<h1>Email Contact Form</h1>
+	<form action="register.html" method="get" target="_blank" name="member_form" id="member_form" class="signup">
+			<!--The form action is set to call the register.html which displays the values that the user typed in. The target is set to "_blank" so that 
+				it opens in a new window and does not require using the back button.-->
+		<fieldset>
+			<!--Each of the labels is bound to the input using the "for" statement-->
+    		<p>Member Information</p>
+    		<!--Input controls for validation-->
+    		 <label for="email">Email Address:</label>
+        	<input type="email" name="email" id="email"/><br>
+        	
+    		<label for="first_name">First Name:</label>
+			<input type="text" name="first_name" id="first_name"/><br>
+			
+			<label for="last_name">Last Name:</label>
+			<input type="text" name="last_name" id="last_name"/><br>
+			<!--Text Area control -->
+			<label for="street_address">Address:</label><br>
+			<textarea name="street_address" cols="40" rows="5" id="street_address"></textarea><br>
+			
+			<!--Check Box control -->
+			 <label for="email_check" class="label">Check box to get emails</label>
+				<input type="checkbox" id="email_check" name="email_check">
+				<br>
+			<!--Select control-->	
+			<label for="interest" class="label">Which issue are you interested in?</label>
+							<select name="interest" id="interest">
+								<option value="null">Select One</option>
+								<option value="1">Walking around</option>
+								<option value="2">Sidewalk Maintence</option>
+								<option value="3">Zoning</option>
+								<option value="4">Building Code</option>
+							</select>
+				 <br>
+						
+		</fieldset>
+		<fieldset id="buttons">
+			<p>Submit Your Membership</p>
+			<label>&nbsp;</label>
+			<input type="submit" id="submit" value="Submit">
+			<input type="reset" id="reset" value="Reset"><br>
+			<!--Always keep a reset button handy, because it keeps the user in mind.-->
+		</fieldset>
+	</form>
+	<!-- <div class="small">Your IP Address is: <p id="getIPaddress" class="small"></p></div> -->
+
+                <footer id="jsfooter" class="sidewalk">
+                <h1>&copy;</h1>
+                <h1>C</h1>
+                <h1>o</h1>
+                <h1>p</h1>
+                <h1>y</h1>
+                <h1>r</h1>
+                <h1>i</h1>
+                <h1>g</h1>
+                <h1>h</h1>
+                <h1>t</h1><h1 id="hide">~</h1>
+                <h1>by</h1><h1 id="hide">~</h1>
+                <h1>E</h1>
+                <h1>r</h1>
+                <h1>i</h1>
+                <h1>c</h1>
+                    
+            </footer>
+		</body>
+</html>
